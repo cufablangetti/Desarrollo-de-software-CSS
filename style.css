@@ -180,10 +180,10 @@ a:hover {
     0%{
     transform: translate(0);
     }
-    50%{
-    transform: translateX(100px);
+    0%{
+    transform: translateX(50px);
     }
-    1000%{
+    100%{
     transform: translateX(0px);
     }
 }
@@ -250,13 +250,13 @@ footer{
     }
     .mover {
         width: 100%; 
-        height: 50px; 
+        height: 70%; 
         font-size: 16px; 
     }
 
     .animacion {
         width: 100%; 
-        height: 100px; 
+        height: 100%; 
         font-size: 14px; 
     }
 }
